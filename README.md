@@ -28,6 +28,9 @@ python -m spacy download ja_core_web_lg
 
 ### Samples
 ```bash
-"あなたは手も足も出ないんだぞ"
+parse(あなたは手も足も出ないんだぞ)
 [("あなた", PRONOUN), ("は", PARTICLE), ("手も足も出ない", EXPRESSION), ("んだ" EXPRESSION), ("ぞ" PARTICLE)]
+
+dict_form("ハト胸はアスカの手を取りながら歩いていた")
+[("ハト胸"), （"は"), ("アスカ"), ("の"), ("手を取る"), ("ながら"), ("歩く"), ("いる"), ("た")]
 ```
