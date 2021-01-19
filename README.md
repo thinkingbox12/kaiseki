@@ -1,7 +1,7 @@
 # kaiseki
 kaiseki is a Python tool to aid in recognition of idiomatic expressions, colloquialisms, collocations, and dialectal speech in Japanese. It is built with [spaCy](https://spacy.io/models), using the pretrained Japanese statistical models and NLP tools.
 
-**This project is currently a work in progress, so not all the features may be available at this time**
+**This project is currently a work in progress, so not all the features may be available at this time. Development is welcome.**
 
 ## Features
 kaiseki was built with language learners in mind. Many Japanese morphological analyzers parse to the smallest unit of language- this can be troublesome when many smaller units form one idiomatic expression. The issue is especially prevalent when generating i+1 learning queues, ala Stephen Krashen's [input hypothesis](https://en.wikipedia.org/wiki/Input_hypothesis) and Anki's [MorphMan addon](https://github.com/kaegi/MorphMan)
