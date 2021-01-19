@@ -3,7 +3,7 @@ kaiseki is a Python tool to aid in recognition of idiomatic expressions, colloqu
 
 **This project is currently a work in progress, so not all the features may be available at this time. Development is welcome.**
 
-## Features
+## About
 kaiseki was built with language learners in mind. Many Japanese morphological analyzers parse to the smallest unit of language- this can be troublesome when many smaller units form one idiomatic expression. The issue is especially prevalent when generating i+1 learning queues, ala Stephen Krashen's [input hypothesis](https://en.wikipedia.org/wiki/Input_hypothesis) and Anki's [MorphMan addon](https://github.com/kaegi/MorphMan)
 
 Take the example of the idiomatic phrase **"気になる"**, with one of its translations **"to weigh on one's mind"**. Let's see how a functioning analyzer would interpret it.
@@ -16,7 +16,17 @@ Take the example of the idiomatic phrase **"気になる"**, with one of its tra
 
  ... this creates some trouble for a learner who has learned these three components in isolation. While this is a straightforward example, especially with context clues, there are many cases where additional semantic clues would be very helpful beyond the typical morphological analysis.
  
-Future implementations will include dialectal phrase support, better breakdown of spoken language, proper nouns, native Japanese names, and much more.
+### Features
+- POS tagging
+- Furigana
+- Dictionary form
+
+- Supports
+   - Dialects
+   - Figures of speech
+   - Spoken language
+   - Japanese names
+   - Gairaigo
 
 ## Usage
 First, install spaCy and its dependencies need to be installed. This can be done through **pip:**
@@ -45,6 +55,7 @@ dict_form("ハト胸はアスカの手を取りながら歩いていた")
 - Add readings
 - Check for errors / overlaps in expressions
    - hard-code exceptions
+   
 ## License
 
 JSON files were converted from the original JMdict XML files with scriptin's [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) repository. The following information is from that repository.
