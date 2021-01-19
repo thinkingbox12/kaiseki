@@ -38,13 +38,13 @@ dict_form("ハト胸はアスカの手を取りながら歩いていた")
 ## To-Do
 
 - Implement JEDict files into the spaCy implementation
- - begin testing with small quantities, e.g. limiting to just expressions
+   - begin testing with small quantities, e.g. limiting to just expressions
 - Identify strings that are entries in the dictionary
 - Make the model re-parse based on those entries
 - Add parts of speech
 - Add readings
 - Check for errors / overlaps in expressions
- - hard-code exceptions
+   - hard-code exceptions
 ## License
 
 JSON files were converted from the original JMdict XML files with scriptin's [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) repository. The following information is from that repository.
