@@ -34,3 +34,12 @@ parse("あなたは手も足も出ないんだぞ")
 dict_form("ハト胸はアスカの手を取りながら歩いていた")
 [("ハト胸"), （"は"), ("アスカ"), ("の"), ("手を取る"), ("ながら"), ("歩く"), ("いる"), ("た")]
 ```
+## License
+
+JSON files were converted from the original JMdict XML files with scriptin's [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) repository. The following information is from that repository.
+
+The original XML files, JMdict_e.xml and JMnedict.xml are property of the Electronic Dictionary Research and Development Group, and are used in conformance with the Group's licence. The project was started in 1991 by Jim Breen.
+
+All derived files are distributed under the same license, as the original license requires it.
+
+Source files of this project (excluding distribution archives containing JSON files) are available under Creative Commons Attribution-ShareAlike License v4.0.
