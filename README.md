@@ -25,3 +25,7 @@ python -m spacy download ja_core_web_lg
 ```
 
 ### Samples
+```bash
+"あなたは手も足も出ないんだぞ"
+[("あなた", PRONOUN), ("は", PARTICLE), ("手も足も出ない", EXPRESSION), ("んだ" EXPRESSION), ("ぞ" PARTICLE)]
+```
